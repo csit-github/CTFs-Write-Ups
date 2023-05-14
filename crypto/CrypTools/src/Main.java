@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String secret_phrase = "CRYPTOOLS";
+        String encryption_key = "VERNAMCIP";
+
+        VernamCypherEncryptor.getStringsModular(secret_phrase, encryption_key);
     }
 }
